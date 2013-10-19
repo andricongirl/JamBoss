@@ -1,0 +1,37 @@
+[Eagle]
+Version="06 03 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Aesthetics.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-AnalogIC.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Boards.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Capacitors.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-DigitalIC.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Displays.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Electromechanical.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-FreqCtrl.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-LED.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Passives.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-PowerIC.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-RF.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Resistors.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/SparkFun-Sensors.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/adafruit.lbr"
+UsedLibrary="C:/Users/icon/Documents/external_lbrs/iconcustom.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="668 203 1267 602"
+State=2
+Number=0
+
+[Desktop]
+Screen="3200 900"
+Window="Win_1"
