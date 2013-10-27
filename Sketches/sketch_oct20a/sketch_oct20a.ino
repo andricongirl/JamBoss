@@ -40,7 +40,7 @@ unsigned long segmentLength[] = {
   30000 ,30000, 120000, 60000, 0, 30000, 120000, 0};
 String gameModeString[] = {
   "Pre-game ", "Line up  ", "Jam On   ", "Time Out ", "Official ", "Line Up ", "Last Jam ", "Game Over"};
-LiquidCrystal lcd( 7, 8, 9, 10, 11, 12);
+LiquidCrystal lcd( 5, 6, 7, 8, 9, 10);
 // Actual pins on TQFP 32 (32, 1, 2, 9, 10, 11, 12)
 StopWatch periodTimer;
 StopWatch gameTimer;
@@ -69,7 +69,6 @@ void loop() {
   // And since the clocks have been updated we should display the information.
 
   updateDisplay();
-
 } // void loop()
 
 
