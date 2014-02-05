@@ -139,7 +139,7 @@
 <wire x1="81.28" y1="38.1" x2="0" y2="38.1" width="0" layer="20"/>
 <wire x1="0" y1="38.1" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="81.28" y1="0" x2="0" y2="0" width="0" layer="20"/>
-<text x="73.66" y="2.54" size="1.778" layer="22" rot="MR0">v0.2</text>
+<text x="73.66" y="2.54" size="1.778" layer="22" font="vector" rot="MR0">R0 B2</text>
 <text x="65.49115625" y="34.75313125" size="1.778" layer="21">J</text>
 <text x="67.961434375" y="34.75313125" size="1.778" layer="21">T</text>
 <text x="70.77640625" y="35.098359375" size="1.778" layer="21">-</text>
