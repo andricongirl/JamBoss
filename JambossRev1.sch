@@ -1708,26 +1708,6 @@ type 0309, grid 2.5 mm</description>
 <wire x1="40" y1="-18" x2="40" y2="18" width="0.127" layer="21"/>
 <wire x1="40" y1="18" x2="-40" y2="18" width="0.127" layer="21"/>
 <wire x1="-40" y1="18" x2="-40" y2="-18" width="0.127" layer="21"/>
-<wire x1="-35.65" y1="13.15" x2="35.65" y2="13.15" width="0.127" layer="21"/>
-<wire x1="35.65" y1="13.15" x2="35.65" y2="-13.15" width="0.127" layer="21"/>
-<wire x1="35.65" y1="-13.15" x2="-35.65" y2="-13.15" width="0.127" layer="21"/>
-<wire x1="-35.65" y1="-13.15" x2="-35.65" y2="13.15" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="11.236" x2="31.75" y2="11.236" width="0.127" layer="21"/>
-<wire x1="31.75" y1="11.236" x2="31.75" y2="10.236" width="0.127" layer="21"/>
-<wire x1="31.75" y1="10.236" x2="-31.75" y2="10.236" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="10.236" x2="-31.75" y2="11.236" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="-11.05" x2="31.75" y2="-11.05" width="0.127" layer="21"/>
-<wire x1="31.75" y1="-11.05" x2="31.75" y2="-10.05" width="0.127" layer="21"/>
-<wire x1="31.75" y1="-10.05" x2="-31.75" y2="-10.05" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="-10.05" x2="-31.75" y2="-11.05" width="0.127" layer="21"/>
-<wire x1="-29.386" y1="7.982" x2="-31.75" y2="4.982" width="0.127" layer="21" curve="90"/>
-<wire x1="-31.75" y1="4.982" x2="-31.75" y2="-5.05" width="0.127" layer="21"/>
-<wire x1="-31.75" y1="-5.05" x2="-29.386" y2="-8.05" width="0.127" layer="21" curve="90"/>
-<wire x1="-29.386" y1="-8.05" x2="29.122" y2="-8.05" width="0.127" layer="21"/>
-<wire x1="29.122" y1="-8.05" x2="31.75" y2="-5.05" width="0.127" layer="21" curve="90"/>
-<wire x1="31.75" y1="-5.05" x2="31.75" y2="4.982" width="0.127" layer="21"/>
-<wire x1="31.75" y1="4.982" x2="29.122" y2="7.982" width="0.127" layer="21" curve="90"/>
-<wire x1="29.122" y1="7.982" x2="-29.386" y2="7.982" width="0.127" layer="21"/>
 <pad name="1" x="-32" y="15.5" drill="1" diameter="1.778" rot="R90"/>
 <pad name="2" x="-29.46" y="15.5" drill="1" diameter="1.778" rot="R90"/>
 <pad name="3" x="-26.92" y="15.5" drill="1" diameter="1.778" rot="R90"/>
@@ -6496,16 +6476,16 @@ QFN is non-stock</description>
 <part name="VCC6" library="supply1" deviceset="VCC" device=""/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="1M"/>
 <part name="BATT" library="adafruit" deviceset="JST_2PIN" device="-THM-RA"/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="LED1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="330OHM1/10W1%(0603)" device="" value="330"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="2.0k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="2k"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(1206)" device="" value="10uF"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="0805" value="47uH"/>
-<part name="IC2" library="SparkFun-PowerIC" deviceset="V_REG_NCP1400" device="SOT23-5"/>
+<part name="IC2" library="SparkFun-PowerIC" deviceset="V_REG_NCP1400" device="SOT23-5" value="NCP1402"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="MBRA140"/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="68uF"/>
 <part name="VCC1" library="supply1" deviceset="VCC" device=""/>
@@ -6547,7 +6527,7 @@ QFN is non-stock</description>
 <instance part="VCC6" gate="VCC" x="20.32" y="86.36" rot="R270"/>
 <instance part="R5" gate="G$1" x="12.7" y="86.36"/>
 <instance part="BATT" gate="G$1" x="119.38" y="185.42" rot="MR0"/>
-<instance part="D1" gate="G$1" x="15.24" y="185.42"/>
+<instance part="LED1" gate="G$1" x="15.24" y="185.42"/>
 <instance part="R6" gate="G$1" x="43.18" y="180.34"/>
 <instance part="C3" gate="G$1" x="-2.54" y="180.34"/>
 <instance part="R7" gate="G$1" x="93.98" y="177.8" rot="R90"/>
@@ -6573,7 +6553,7 @@ QFN is non-stock</description>
 <instance part="J1" gate="G$1" x="-17.78" y="20.32"/>
 <instance part="U2" gate="G$1" x="40.64" y="50.8"/>
 <instance part="U$2" gate="G$1" x="109.22" y="-7.62"/>
-<instance part="R8" gate="G$1" x="132.08" y="20.32"/>
+<instance part="R8" gate="G$1" x="127" y="15.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6632,7 +6612,11 @@ QFN is non-stock</description>
 <segment>
 <pinref part="VCC3" gate="VCC" pin="VCC"/>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="20.32" x2="139.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VDD"/>
+<wire x1="88.9" y1="10.16" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="127" y1="20.32" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
+<junction x="127" y="20.32"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6712,7 +6696,7 @@ QFN is non-stock</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="180.34" x2="38.1" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
@@ -6728,7 +6712,7 @@ QFN is non-stock</description>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="187.96" x2="-2.54" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="15.24" y1="187.96" x2="45.72" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="187.96" x2="45.72" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
@@ -6981,15 +6965,10 @@ QFN is non-stock</description>
 <wire x1="93.98" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDD" class="1">
+<net name="GRN" class="1">
 <segment>
 <pinref part="U$2" gate="G$1" pin="GRN"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="127" y1="20.32" x2="127" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VDD"/>
-<wire x1="88.9" y1="10.16" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="20.32" x2="127" y2="20.32" width="0.1524" layer="91"/>
-<junction x="127" y="20.32"/>
 </segment>
 </net>
 </nets>
